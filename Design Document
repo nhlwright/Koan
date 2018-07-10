@@ -1,0 +1,396 @@
+Koan Digital Game Design Document:
+
+
+Dialogue Font Point 24/ IM FELL
+
+Possible Cults:
+Lilith(Vampires)
+Fenrir(Werewolves)
+Anubis(Undead)
+Titania(Fey)
+Chronos(Rare)(Wizards)
+The Fool(Rare)(Rogues)
+
+Cult Characteristics:
+Lilith: Regenerates health. Quick. Low base health.
+Fenrir: High base health. Deals heavy damage. Fights fair.
+Anubis: Fights in hordes. Can resist death. Slow.
+Titania: Utilizes status effects. Resistant to god tech. Deals low damage.
+
+Level 1 Chests:
+-1 Health Potion
+-6 Revolver Bullets
+-2 Keys
+-Shotgun and Six Shells
+-Part Of Artemis' Bow
+-Grenade
+
+Level 2 Chests:
+-3 Health Potions
+-Armor
+-4 Keys
+-Boots of Hermes
+-Part of Artemis’ Bow
+
+Status Effects:
+Dazed: 25% to the next attack to miss.
+Burning: -1 HP each turn(ignores armor)
+Chilled: Next attack deals half damage.
+
+Rules:
+Starting Ten Health
+Starting 6 Bullets
+Starting 2 Strength
+Allies Have A Cooldown Of Three Rooms
+5 Gauntlet Rooms Then A Boss
+
+1 = First Floor
+0 = Basement
+2 = Second Floor
+C = Cave
+G = Hedge Maze
+M = Quarry
+E = Excavation Part 1
+
+Room Outlines:
+
+1A: Front Door
+-Story: Establish The Soul Anathema
+--Go Through A Window(Spend A Bullet)(1C)
+--Use The Front Door(1D)
+
+0A: Cellar Door
+-Story: Establish Robert's Loyalty
+--Enter The Cellar(0B)
+--Enter The Cave(0C)
+
+1B: Side Door
+-Story: Establish Zeus
+--Climb The Trellis(2A)
+--Enter The Side Door(1E)
+
+1C: Kitchen
+-Threat: Cultist
+-Reward: Two Keys
+--Go To First Floor Gauntlet
+
+1D: Entry Hall
+-Reward: One Key
+--Go To First Floor Gauntlet
+--Go To Second Floor Gauntlet
+
+0B: Cellar
+-Clue: Dead Body Killed By Cultist
+--Enter Basement Gauntlet
+
+0C: Cave Entry
+-Threat: Cultist
+--Go To Cave Gauntlet
+
+2A: Balcony
+-Clue: See The Excavation Site
+--Go To Second Floor Gauntlet
+
+1E: Side Entry
+-Reward/Threat: Random Minor Benefit Or Loss(Key/Bullets/Damage/Nothing)
+--Go To First Floor Gauntlet
+
+1F(Gauntlet): Temple Shrine
+-Conditional: Unusable If You Have Any Dissent
+-Reward: Blessing of The Gods
+-Zeus: Gain The Smite Ability
+-Ares: +2 Damage
+-Asclepius: +4 Health
+-Apollo: Learn A Random Secret
+-Hermes: Gain Two Keys
+
+1G(Gauntlet): Hallway
+-Threat: Cultist
+
+1H(Gauntlet): Corridor
+-Reward: Locked Chest
+-Reward: Locked Door
+
+1I(Locked Door): Closet Of Asclepius
+-Reward: 3 Health Potions
+
+1J(Locked Door): Prison
+-Reward: Random Disciple
+-Zeus: Casts Smite
+-Asclepius: Heal 3 Damage
+-Hermes: Unlock An Object
+-Aphrodite: Bonus To Negotiating
+-Artemis: Find An Item
+
+0D(Gauntlet): Dark Temple Shrine
+-Reward: Dark Blessing(+1 Dissent)
+-Lilith: Gain Lifesteal 1
+-Fenrir: Gain Berserker Rage Ability
+-Anubis: Gain Commune With Spirits Ability
+-Titania: Gain Armor 1
+
+0E(Gauntlet): Fountain
+-Reward: Random Event
+-Lose Half Your Life
+-Fight A Water Demon
+-Nothing
+-Gain Excalibur
+-Restore All Health
+-Gain +1 Strength
+
+0F(Gauntlet): Oracle
+-Reward: Learn A Random Secret
+
+0G(Gauntlet): Passageway
+-Threat: Fight A Cultist
+
+2B(Gauntlet): Long Hallway
+-Threat: Fight Two Cultists
+
+2C(Gauntlet): Heirloom Room
+-Reward: A Large Chest
+
+2D(Gauntlet): Decrepit Hallway
+-Reward: Random Weapon
+-50% Chance Of Damage
+-Machine Gun
+-Sniper
+-Parrying Dagger
+
+0H(Gauntlet): Shrine To The Fool
+-Reward: Gain Luck(+1 Dissension)
+-Lucky or Unlucky
+
+1K(Gauntlet): Mysterious Stranger
+-Reward: +2 Keys
+-1 Strength
+
+2E(Gauntlet): Merchant
+-Reward: Trade Keys For Items
+
+0I(Gauntlet): Trapped Room
+-Reward: +2 Keys
+-50% Chance Of Damage
+
+2F(Gauntlet): Atrium
+-Threat: Elite Cultist
+-Reward: 2 Keys
+
+1L(Gauntlet): Dusty Room
+-Reward 1 Key
+
+1M(Boss): Ritual Room
+-Threat: Boss Cultist
+--Go Upstairs
+--Go To Mansion Grounds(GA)
+
+1N(Boss): Arena
+-Threat: Knight of Mephistopheles
+--Go Upstairs
+--Go To Mansion Grounds(GA)
+
+1O(Gauntlet): Library
+-Clue: Random World Fact
+
+2F(Gauntlet): Painting Room
+-Threat: Giant Rat
+-Reward: Key
+
+2G(Boss): Greenhouse
+-Threat: Monstrous Hydra Plant
+--Go To Tram
+
+1P(Gauntlet): Mallory's Room
+-Reward: Mallory Joins Party
+-Mallory Reminiscences If Already In The Party
+
+2H(Boss): Variable
+-Threat: Cultist Avatar
+--Go To Tram
+
+2I(Gauntlet): Bathroom
+-Reward: Double Locked Cabinet
+-Treasure Chest But Can Get Triple Health Potions
+
+0G(Boss): Pump Station
+-Threat: Exiled Vigilante
+--Go To Mine
+--Go Upstairs
+
+0H(Gauntlet): Graffiti Room
+-Reward: Treasure Chest
+-Must Know The Password
+
+OI(Boss): Computer Room
+-Threat: Golem
+--Go To Mine
+--Go Upstairs
+
+CA: Cave Entry
+-Threat: Cultist
+--Go To Cave Gauntlet
+
+CB(Gauntlet): Tunnel
+-Threat: Elite Cultist
+
+CC(Gauntlet): Gauntlet
+-Threat: 50% to take damage
+-Can Bypass With The Password
+
+CD(Gauntlet): Hot Springs
+-Reward: Heal or gain Strength
+
+CE(Gauntlet): Locker Room
+-Reward: Weapon or Bullets
+
+CF(Gauntlet): Profane Shrine
+-Threat: Elite Cultist Then Regular Cultist
+
+CG(Boss): Warrior's Altar
+-Threat: Corrupted Spirit
+-Reward: Spear of Ares, 2 Keys
+--Go To Basement
+
+GA: Maze Entrance
+-Reward: Merchant
+--Go To Maze Gauntlet
+
+GB(Gauntlet): Cultist Gathering
+-Cult Specific Event
+
+2J(Gauntlet): Display Room
+-Reward: 2 Key or A Treasure Chest
+
+GC(Gauntlet): Natural Pool
+-Reward Gain Full Health
+-Can Be Skipped
+
+GD(Gauntlet): Crossway
+-Threat: Minotaur
+-Can Be Skipped With A Key
+
+GE(Gauntlet): Straightway
+-Reward: Gain Two Keys
+
+GF(Gauntlet): Culdesac
+-Reward: Level 2 Treasure
+-50% To Take Damage
+
+GG(Gauntlet): Hermit's Hut
+-Reward: Learn A Fighting Style
+
+GH(Gauntlet): Traveling Merchant
+-Reward: Merchant
+
+GI(Gauntlet): Center Of The Maze
+-Reward: Gain A Homing Beacon
+
+GJ(Gauntlet): Clearing
+-Reward: Either A Seraph Or A Repentant Cultist
+
+GK(Gauntlet): Mausoleum
+-Reward: Level 1 Treasure Chest And Level 3 Treasure Chest
+-Costs 1 and 3 Keys
+
+0J(Gauntlet): Basement Elevator
+-Reward: Switch Floors
+
+2K(Gauntlet): 2nd Floor Elevator
+-Reward Switch Floors
+
+GL(Boss): Maze's End
+-Threat: Cult Siege Engine
+-Can Be Avoided If Maze Base Is Lost
+--Return To Maze
+--Go To Upper Excavation Site
+
+GM(Boss): Variable
+-Threat: Cultist God
+-Can Join The Cult
+--Return To Maze
+---Go To Upper Excavation Site
+
+MA: Mine Entrance
+-Choose Between Playing As Alison Or Robert
+--Go To Mine Gauntlet
+
+MB(Gauntlet): Soothsayer
+-Story: Reveal Alison's Secret
+
+MC(Gauntlet): Ancient Study
+-Reward: Gain Mallory
+-Mallory Story Scene If She Is Already In The Party
+
+MD(Gauntlet): Fetid Pool
+-Threat: Elite Cultist
+
+
+
+
+ME(Gauntlet): Mine Car
+-Reward: Reunite Party
+-Requires Two Keys
+--Go To Mine Boss Fight
+
+MF(Gauntlet): Traveling Merchant
+-Reward: Merchant
+
+MG(Gauntlet): Tunnel
+-Threat: Two Elites
+-Reward: Level 3 Treasure
+-Can Be Skipped
+
+MH(Gauntlet): Variable
+-Character Specific Encounter
+
+MI(Gauntlet End): Laboratory
+-Characters Rejoined
+-Story Moment, Depends On What The Character Learned In The Gauntlet
+
+MJ(Boss): Laboratory
+-Threat: Alison
+-Only If Robert Learned Alison's Secret And Chooses To Fight Her
+--Go To Upper Excavation Site
+
+MK(Boss): Quarry
+-Threat: Earth Elemental
+--Go To Upper Excavation Site
+
+ML(Boss): Quarry
+-Threat: Seraphim Swarm
+-Only Triggers If The Players Have Dissension
+--Go To Upper Excavation Site
+
+MN(Boss): Quarry
+-Threat: The High Priest
+--Go To Upper Excavation Site
+
+TA: Tram
+-Threat: Demon
+-Reward: Level 2 Treasure Chest
+--Go To Upper Excavation Site
+
+EA: Excavation Entrance
+-Threat: Demon
+-Must Encounter Whenever Coming From The Maze
+--Go To Upper Excavation Gauntlet
+
+
+EB(Gauntlet): Power Room
+-Reward: Power
+-Requires Two Keys
+
+GN(Gauntlet): Forest
+-Reward: Wood Production
+-Requires: A Base
+-Will Stay In Pool Until Tagged
+
+GO(Gauntlet): Abandoned Camp
+-Reward: Turrets
+
+EC(Gauntlet): Observation Room
+-Threat: Dark Priest
+-Reward: Two Keys
+-Will Keep Appearing Until Station Is Powered
+
+ED(Gauntlet): Forge
